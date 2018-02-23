@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dan_inn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.escola.apphotel.DanInn">
+
+    <LinearLayout
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:background="@drawable/daninn"
+        android:layout_height="220dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="Dan Inn Cambui"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Endereço: Av.Julio de Mesquita, 139"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Bairro: Cambui            CEP: 13025062"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/endereco">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telefone"
+            />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E-mail"
+            />
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="browser1"
+            android:text="SITE"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/informacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/botoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Informações: "/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/informacoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:text=" Em um dos bairros mais charmosos e badalados de Campinas, o Hotel Dan Inn Cambuí oferece conforto e praticidade. Fica perto dos mais tradicionais restaurantes, bares e casas noturnas da cidade, além de estar a apenas 20 minutos de carro do Aeroporto Internacional Viracopos. O Dan Inn dispõe de 71 apartamentos confortavelmente mobiliados e equipados com ar condicionado, frigobar, TV a cabo, estação de trabalho, cama Box e piso frio. Destes, quatro foram cuidadosamente preparados para receber portadores de necessidades especiais. Os hóspedes também podem desfrutar da área de lazer com academia, sauna, piscina e saborear o melhor da gastronomia brasileira no restaurante, que serve almoço e jantar no sistema à la carte. Há ainda quatro salas com capacidade para 145 pessoas preparadas para receber eventos empresarias.  O Hotel Dan Inn Cambuí também conta com serviço de lavanderia, room service 24 horas e tarifas diferenciadas para grupos, eventos e finais de semana. Como cortesia, o Dan Inn Cambuí oferece café da manhã e internet Wi-Fi."/>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171090798057",
+    "project_id": "valiant-arcana-143010"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171090798057:android:20850eacaa313b12",
+        "android_client_info": {
+          "package_name": "br.com.escola.apphotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171090798057-hv65haoqp5ang7d8botpmhpso6tlq5k4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.escola.apphotel",
+            "certificate_hash": "DCB2550FD8C97DC6679D8BFC759210F9B7A04D1A"
+          }
+        },
+        {
+          "client_id": "171090798057-6b11ebpm8g7d8p8etjhlnpk9pbrgt8rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvV_l-oWJwkQi8YH_sf-tJcTOUWFuYbXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

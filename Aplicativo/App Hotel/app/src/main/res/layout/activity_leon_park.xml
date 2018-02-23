@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dan_inn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.escola.apphotel.LeonPark">
+
+    <LinearLayout
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:background="@drawable/leon"
+        android:layout_height="220dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="Leon Park Hotel"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Endereço: Av. Francisco Glicerio, 641"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Bairro: Centro            CEP: 13012000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/endereco">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telefone"
+            />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E-mail"
+            />
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="browser1"
+            android:text="SITE"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/informacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/botoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Informações: "/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/informacoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:text="Localizado na principal avenida do centro comercial e financeiro de Campinas - SP, o Leon Park Hotel tem fácil acesso as principais rodovias do estado, como Rodovias Anhanguera, Bandeirantes e Dom Pedro. A poucos minutos dos principais pontos atrativos de Campinas-SP como: Aeroporto Internacional de Viracopos, Rodoviária Municipal, Parques Hopi Hari e Wet 'n Wild, e do campus universitário Unicamp, PUCC e Faculdades São Leopoldo Mandic.
+
+O Leon Park Hotel oferece todo conforto e qualidade aos seus hóspedes com área de lazer na cobertura com piscina, saunas, churrasqueira, sala de ginástica, e um amplo estacionamento próprio do hotel, coberto e com seguro, além de serviço de manobristas. Temos ainda uma sala de internet gratuita aos nossos hóspedes e 100% do hotel coberto por internet wi-fi gratuita. Nossos amplos apartamentos são equipados com ar condicionado, TV a cabo, internet wi-fi free, frigobar, cofres individuais, telefone, confortáveis camas box spring, secadores de cabelo, pisos de madeira antialérgicos, e muito requinte! Oferecemos também 4 (quatro) suítes Master Leon tipo flat com cozinha, sala, quarto e banheiros com banheiras hidromassagem.
+"/>
+
+    </ScrollView>
+
+</RelativeLayout>

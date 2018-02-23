@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dan_inn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.escola.apphotel.AstronGarden">
+
+    <LinearLayout
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:background="@drawable/gar2"
+        android:layout_height="220dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="Astron Garden Special"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Endereço: Rua Dr. Melo Alves, 55"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Bairro: Dr. Melo Alves         CEP: 1417010"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/endereco">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telefone"
+            />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E-mail"
+            />
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="browser1"
+            android:text="SITE"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/informacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/botoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Informações: "/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/informacoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:text="Localizado a poucos metros da passarela da Av Rebouças, em frente ao complexo HC / INCOR. Com apartamentos de 40 m2, atende tanto ao público corporativo quanto ao particular. Oferece facilidade de acesso a todas as regiões da cidade, pois está junto a importantes avenidas e a duas estações de metrô. O diferenciado comércio do bairro e os eventos realizados na Av Paulista também são atrativos da região.
+
+Serviços: Restaurante, Serviço de quarto, Estacionamento c/ manobrista, Piscina, Sauna e Serviço de lavanderia.
+
+Acomodações: TV a cabo, Frigobar, Secador de cabelo, Internet Wi-Fi, Ar condicionado, Cofre, Room servisse, Apartamento não fumantes e Cozinha equipada.
+"/>
+
+    </ScrollView>
+
+</RelativeLayout>

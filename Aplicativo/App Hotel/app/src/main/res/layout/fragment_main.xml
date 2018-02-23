@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/primeiro_layout"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/hdedit">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BEM VINDO!"
+            android:fontFamily="serif"
+            android:textSize="35sp"
+            android:textColor="#dfdfdf"
+            android:layout_gravity="center"
+            android:id="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="AO NOSSO APLICATIVO!"
+            android:textColor="#ffffff"
+            android:id="@+id/txtNome"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:id="@+id/btnHotel"
+                android:layout_gravity="bottom"
+                android:src="@drawable/procurar"
+                android:background="#00ffffff"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Plaza Hoteis agradeçe a preferencia e espera que você encontre o que está procurando."
+                android:id="@+id/textView"
+                android:layout_below="@+id/imageButton"
+                android:layout_marginBottom="20dp"
+                android:textSize="12sp"
+                android:textColor="#ffffff"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

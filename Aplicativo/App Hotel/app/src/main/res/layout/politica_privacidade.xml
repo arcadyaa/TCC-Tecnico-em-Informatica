@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/termos_condicao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.escola.apphotel.TermosCondicao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="POLITICA DE PRIVACIDADE
+10/10/2016" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="1. O QUE FAZEMOS COM SUAS INFORMAÇÕES?"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="1. O termo ''informações pessoais'' usado aqui, é definido como qualquer informação que identifica ou pode ser usada para identificar, contatar ou localizar a pessoa, a quem tal informação pertence. As informações pessoais que coletamos estará sujeita a esta Política de Privacidade, a qual é alterada de tempos em tempos.
+2. Quando você se cadastra no Plaza hoteis pedimos o seu endereço de e-mail.
+3. O Plaza hoteis utiliza as informações que são coletadas para os seguintes propósitos gerais: fornecimento de produtos e serviços, cobrança, identificação e autenticação, melhoria de serviços, contato e pesquisa.
+4. Como parte do processo de compra e venda no Plaza hoteis, você irá obter o endereço de e-mail e/ou endereço de entrega de seus clientes. Ao aceitar nosso Acordo de Usuário, você concorda que, com respeito às Informações Pessoais de outros usuários que você obtém através do Plaza hoteis ou através de uma comunicação relacionada do Plaza hoteis ou transação facilitada do Plaza hoteis, o Plaza hoteis concede a você uma licença para utilizar tais informações apenas para comunicações relacionadas ao Plaza hoteis que não sejam mensagens comerciais não solicitadas. O Plaza hoteis não tolera spam. Portanto, sem limitar o precedente, você não está licenciado a adicionar o nome de alguém que tenha comprado um item seu, para sua lista de correio (e-mail ou correio físico) sem que tenha consentimento expresso deles.
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="2. O QUE SIGNIFICA?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Quando você se cadastra, você fornece informações pessoais que coletamos e usamos. Para o processo de finalização de compra (check-out) também coletamos informações do seu cartão de crédito. Apenas use as informações dos seus clientes do Plaza hoteis para comunicações relacionadas ao Plaza hoteis, a menos que eles lhe permitam fazê-lo. Não faça spam para ninguém!"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="3. SEGURANÇA" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="A segurança de suas informações pessoais é importante para nós. Quando você insere informações confidenciais, tais como número de cartão de crédito em nosso formulário de inscrição, nós criptografamos a transmissão dessas informações usando a tecnologia Secure Socket Layer (SSL). Os dados do cartão de crédito são armazenados e criptografados usando criptografia AES-256. Como um fornecedor de serviços em conformidade com o PCI DSS Nível 1 seguimos todos os requisitos do PCI-DSS e implementamos padrões adicionais geralmente aceitos da indústria, para proteger a informação pessoal que nos é submetida, tanto durante a transmissão quanto assim que a recebemos. Nenhum método de transmissão pela Internet, ou método de armazenamento eletrônico é 100% seguro. Portanto, enquanto nos esforçamos para utilizar meios comercialmente aceitáveis para proteger suas informações pessoais, não podemos garantir sua segurança absoluta. Se você tem dúvidas sobre a segurança em nosso Site, você pode enviar um e-mail para plazahoteiscontato@gmail.com."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="4. O QUE SIGNIFICA?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Vamos criptografar seu cartão de crédito e informações confidenciais nos padrões da indústria. Porque as coisas acontecem, nós não podemos garantir 100% de segurança de seus dados. Se você tiver dúvidas envie um e-mail para plazahoteiscontato@gmail.com"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="5. DIVULGAÇÃO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="1. Plaza hoteis pode utilizar terceiros prestadores de serviços para fornecer determinados serviços para você e nós podemos compartilhar informações pessoais com esses prestadores de serviços. Exigimos que qualquer empresa com a qual podemos compartilhar Informações Pessoais, proteja os dados de uma forma consistente com essa política, e limite o uso de tais Informações Pessoais para o desempenho dos serviços do Plaza hoteis.
+2. Plaza hoteis pode divulgar Informações Pessoais em circunstâncias especiais, como para cumprir ordens judiciais obrigando-nos a fazê-lo ou quando suas ações violam os Termos de Serviço.
+3. Nós não vendemos ou fornecemos Informações Pessoais para outras empresas, para que elas façam o marketing dos seus próprios produtos ou serviços.
+"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="6. O QUE SIGNIFICA?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Em certas circunstâncias, podemos divulgar suas informações pessoais, como no caso de ordens judiciais."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="7. ARMAZENAMENTO DE DADOS DO CLIENTE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Plaza hoteis possui o armazenamento de dados, bancos de dados e todos os direitos da aplicação Plaza hoteis, entretanto, não fazemos nenhuma reivindicação dos direitos dos seus dados. Você retém todos os direitos sobre os seus dados e nós nunca entraremos em contato com seus clientes diretamente, ou usaremos seus dados para a nossa própria vantagem comercial ou para competir com você, ou para divulgar para os seus clientes."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="8. O QUE SIGNIFICA?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Você possui seus dados e nós vamos respeitar isso. Não vamos tentar competir com você ou escrever para os seus clientes."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="9. COOKIES"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Um cookie é uma pequena quantidade de dados, que podem incluir um identificador único anônimo. Os cookies são enviados para o seu navegador a partir de um site da web e armazenado no disco rígido do seu computador. Para cada computador que acessa o nosso site é atribuído um cookie diferente por nós."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="10. PCI-DSS"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="O Padrão de Segurança de Dados da Indústria de Pagamento com Cartão (PCI-DSS) é um conjunto de requisitos de segurança gerenciados pelo Conselho de Padrões de Segurança PCI, um esforço conjunto das marcas de pagamento, incluindo Visa, MasterCard, American Express e Discover. Os requisitos do PCI-DSS ajudam a garantir a manipulação segura de informações de cartão de crédito pelos comerciantes e prestadores de serviços."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="11. O QUE SIGNIFICA?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Usaremos os padrões da indústria sobre segurança, os mesmos utilizados pelas grandes empresas de cartão de crédito, para ajudar você a manter uma conta segura no Plaza hoteis."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="Alterações a esta Política de Privacidade"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:text="Reservamos o direito de modificar esta declaração de privacidade a qualquer momento, portanto, revise-a frequentemente. Se fizermos alterações materiais a esta política, iremos notificá-lo aqui ou por meio de um aviso em nossa homepage, de modo que você está ciente das informações que coletamos, como as usamos, e sob quais circunstâncias, se houver, as divulgamos ."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="12. O QUE SIGNIFICA?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Podemos alterar esta Política de Privacidade. Se for uma grande mudança, iremos informá-lo, aqui."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="13. PERGUNTAS"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="Quaisquer dúvidas sobre esta Política de Privacidade devem ser endereçadas a plazahoteiscontato@gmail.com"/>
+    </LinearLayout>
+
+
+</ScrollView>

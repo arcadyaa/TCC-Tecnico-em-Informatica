@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">App Hotel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tela_inicial">TelaInicial</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_politica_privacidade">PoliticaPrivacidade</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_teste_atividade">TesteAtividade</string>
+
+    <string name="text_fragment_a">Está é a FRAGMENT A da TAB Campinas</string>
+    <string name="text_fragment_b">Está é a FRAGMENT B da TAB São Paulo</string>
+    <string name="text_fragment_c">Está é a FRAGMENT C da TAB Belo Horizonte</string>
+    <string name="text_fragment_d">Está é a FRAGMENT D da TAB Rio de Janeiro</string>
+
+    <string-array name="titles_tab">
+        <item> CAMPINAS</item>
+        <item> SÃO PAULO</item>
+        <item> BELO HORIZONTE</item>
+        <item> RIO DE JANEIRO</item>
+    </string-array>
+
+    <!--- São Paulo Nomes -->
+    <string-array name="Member_names">
+        <item> MAKSOUD PLAZA HOTEL</item>
+        <item> ASTRON GARDEN SPECIAL</item>
+        <item> WZ JARDINS</item>
+        <item> WZ CENTURY PAULISTA</item>
+    </string-array>
+
+    <!--- São Paulo Fotos -->
+    <array name="profile_pics">
+        <item>@drawable/maksoud</item>
+        <item>@drawable/gar2</item>
+        <item>@drawable/jardim</item>
+        <item>@drawable/cen</item>
+    </array>
+
+    <!-- São Paulo Status -->
+    <string-array name="statues">
+        <item>Blogging</item>
+        <item>Available</item>
+        <item>Busy</item>
+        <item>In a meeting</item>
+        <item>At work</item>
+        <item>At gym</item>
+    </string-array>
+
+    <!-- São Paulo contact type -->
+    <string-array name="contactType">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Mobile</item>
+    </string-array>
+
+</resources>

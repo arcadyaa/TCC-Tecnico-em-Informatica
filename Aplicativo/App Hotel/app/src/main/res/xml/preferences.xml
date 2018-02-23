@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBoxPreference android:title="Atualizações do Aplicativo"
+        android:defaultValue="false"
+        android:summary="Essa opção, se selecionada, permitirá que o aplicativo verifique as versões mais recentes."
+        android:key="applicationUpdates" />
+
+    <CheckBoxPreference android:title="Notificações"
+        android:defaultValue="false"
+        android:summary="Selecione caso você queira notificações dos hoteis."
+        android:key="applicationUpdates" />
+
+    <ListPreference     android:title="Detalhes do Download"
+        android:summary="Selecione o tipo de dados que você deseja fazer os downloads."
+        android:key="downloadType"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <ListPreference     android:title="Temas"
+        android:summary="Selecione o tipo de tema que você prefere. "
+        android:key="themeType"
+        android:defaultValue="1"
+        android:entries="@array/listArray1"
+        android:entryValues="@array/listValues" />
+
+    <ListPreference     android:title="Feedback"
+        android:summary="Por favor, nos dê uma nota. "
+        android:key="feedbackType"
+        android:defaultValue="1"
+        android:entries="@array/listArray2"
+        android:entryValues="@array/listValues" />
+
+</PreferenceScreen>

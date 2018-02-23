@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>Wi-Fi</item>
+        <item>3G / 4G </item>
+    </string-array>
+
+    <string-array name="listArray1">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Light and Dark</item>
+    </string-array>
+
+    <string-array name="listArray2">
+        <item>Ótimo</item>
+        <item>Bom</item>
+        <item>Regular</item>
+        <item>Ruim</item>
+        <item>Péssimo</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

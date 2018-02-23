@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/nav_menu"
+        android:title="Inicio"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/nav_menu2"
+        android:title="Procurar Hotel"
+        android:icon="@drawable/icon_hotel"/>
+
+    <item android:id="@+id/nav_menu5"
+        android:title="SUPORTE">
+
+        <menu>
+
+            <item android:id="@+id/atendimento"
+                android:title="Atendimento"
+                android:icon="@drawable/icon_atend"/>
+
+            <item android:id="@+id/termos"
+                android:title="Termos e Condições"
+                android:icon="@drawable/icon_termos"/>
+
+            <item android:id="@+id/privacidade"
+                android:title="Politica de Privacidade"
+                android:icon="@drawable/icon_pol"/>
+
+            <item android:id="@+id/usuario"
+                android:title="Informações do Usuario"
+                android:icon="@drawable/businessman"/>
+
+            <item android:id="@+id/settings"
+                android:title="Configurações"
+                android:icon="@drawable/icon_config"/>
+        </menu>
+    </item>
+
+</menu>

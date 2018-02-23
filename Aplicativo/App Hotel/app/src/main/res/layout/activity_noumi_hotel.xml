@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dan_inn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.escola.apphotel.NoumiHotel">
+
+    <LinearLayout
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:background="@drawable/noumi"
+        android:layout_height="220dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="Noumi Plaza Hotel"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Endereço: Av. Julio de Mesquita, 115"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Bairro: Cambui            CEP: 13025060"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/endereco">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telefone"
+            />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E-mail"
+            />
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="browser1"
+            android:text="SITE"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/informacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/botoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Informações: "/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/informacoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:text="Ótima localização, instalações completas de hospedagem e lazer faz do Noumi um dos principais hotéis da cidade. Os 66 apartamentos foram projetados para oferecerem conforto e praticidade sem concessão. Os apartamentos são planejados a fim de oferecer o que há de mais moderno aos nossos hóspedes.
+
+O Noumi Plaza Hotel conta com um centro de convenções e mais 3 salas para reuniões com estrutura completa para receber o seu evento.
+"></TextView>
+
+
+    </ScrollView>
+
+</RelativeLayout>

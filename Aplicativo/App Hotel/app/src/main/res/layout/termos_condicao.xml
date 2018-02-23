@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/termos_condicao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.escola.apphotel.TermosCondicao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="TERMOS E CONDIÇÕES
+10/10/2016" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:text="1. SERVIÇOS E DATAS INDICADAS"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:text="1.1 O PLAZA HOTEL concorda em fornecer ao Cliente os Serviços delineados na Declaração de Trabalho (SOW) acordada. Por sua vez, o Cliente concorda em pagar à PLAZA HOTEL taxas pelos serviços profissionais sem devolução, não reembolsáveis (as “Taxas de Serviço”) nas quantias e nas datas marcadas e na programação de pagamentos apresentada na SOW correspondente nos termos apresentados neste Contrato. O Cliente concorda ainda que será responsável pelo pagamento de quaisquer testes e/ou taxas de certificação relacionados com os Serviços listados na SOW correspondente e identificados para o Cliente pelo PLAZA HOTEL na SOW.
+1.2 O PLAZA HOTEL prestará todos os Serviços segundo este Contrato e qualquer SOW de modo profissional e eficiente. PLAZA HOTEL pode buscar os serviços de suas afiliadas e subcontratadas para realizar determinadas obrigações e serviços e, para fins deste Contrato, todas as referências à PLAZA HOTEL serão consideradas como incluindo tais afiliados e subcontratados.
+1.3 O Cliente concorda em cooperar e fornecer à PLAZA HOTEL a assistência técnica razoavelmente necessária para compreender a exigência e os equipamentos do Usuário de modo que O PLAZA HOTEL possa executar os Serviços na SOW correspondente. Em particular, e sem se limitar o caráter geral do acima exposto, o Cliente, em encargos para O PLAZA HOTEL:
+(i) fornecerá todos dados pertinentes de forma apropriada e utilizável e as informações e dará assistência como razoavelmente for solicitado pelo PLAZA HOTEL para executar tais Serviços e, em particular, fornecer à PLAZA HOTEL informações específicas e detalhadas referentes aos sistemas de negócios, procedimentos e hardware do Usuário conforme O PLAZA HOTEL possa razoavelmente solicitar;
+(ii) conceder licenças ou obter licenças para tal software conforme seja razoavelmente necessário para O PLAZA HOTEL executar os Services; O PLAZA HOTEL reconhece que nenhuma transferência de propriedade ou transferência de direitos será considerada como decorrentes de tais licenças;
+(iii) tornar disponível à PLAZA HOTEL as instalações do Usuário, recursos de informática, programas de software, pessoal, e informações comerciais conforme for necessário para O PLAZA HOTEL realizar quaisquer Serviços nos termos do contrato; e (iv) executar tais encargos e responsabilidades adicionais conforme exigido para executar a SOW correspondente. Se o Cliente deixar de cumprir suas responsabilidades de modo apropriado e tempestivo e tal falha for uma causa direta de um atraso na execução dos Serviços ou se resultar em custos adicionais para O PLAZA HOTEL, então O PLAZA HOTEL fornecerá ao Cliente uma especificação escrita de tal atraso com a estimativa pelO PLAZA HOTEL do custo resultante (se houver). O Cliente pagará à PLAZA HOTEL o custo das Taxas Padrão dO PLAZA HOTEL e quaisquer limites de tempo para a execução serão estendidos por um período igual à extensão do atraso. Além disso, as partes acordam em negociar de boa fé para ajustar as Taxas Padrão caso o projeto mostre ser mais difícil ou que consome mais tempo do que previsto pelas partes ao tempo da assinatura da SOW correspondente. O Cliente e O PLAZA HOTEL acordam que os dados fornecidos à PLAZA HOTEL pelo Cliente são de propriedade do Cliente. Se os dados fornecidos à PLAZA HOTEL estiverem de modo inutilizável, O PLAZA HOTEL se empenhará em limpar e modificar os dados para torná-los úteis ao projeto. Quaisquer esforços nesse sentido não é parte do escopo inicial do trabalho e o Cliente concorda em pagar por todo esforço adicional com base no tempo e material. Além disso, se O PLAZA HOTEL entregar o produto de seu trabalho para então descobrir que o Cliente forneceu dados falhos, o Cliente fica responsável por cumprir o contrato nos termos de seu pagamento de obrigações.
+1.4 O produto do trabalho criado pelos Serviços do PLAZA HOTEL destina-se ao uso exclusivo do Usuário. Os produtos do trabalho dos Serviços do PLAZA HOTEL não estão autorizados a serem usados ou confiados a terceiros, sem o consentimento por escrito do PLAZA HOTEL., os resultados apresentados neste produto de trabalho são aqueles que podem ser razoavelmente determinados a partir dos dados e de nosso conhecimento da prática profissional corrente. Quaisquer limitações resultantes de dados serem identificados, onde for possível, mas esses e nossas descobertas podem exigir alterações caso informações adicionais se tornem disponíveis.
+1.5 Para cada SOW, inclusive, sem se limitar a, qualquer SOW que possa ser incorporada a este Contrato, O PLAZA HOTEL e o Cliente desenvolverão um plano de projeto que identifique as responsabilidades de cada parte por tais Serviços. O plano do projeto descreverá em detalhes a programação de tentativas e o escopo dos Serviços que O PLAZA HOTEL fornecerá. O Cliente estabelecerá a orientação geral do projeto, inclusive designando e gerenciando a equipe do pessoal do projeto do Usuário. O Cliente deve indicar um gerente de projeto que assumirá a responsabilidade pelo gerenciamento do projeto. O Cliente deve assegurar que qualquer equipamento está operacional, acessível e com suporte nas vezes acordadas pelas partes no plano do projeto. Se as partes um plano de projeto não desenvolvido de modo algum, O PLAZA HOTEL, contudo, fornecerá os Serviços ao Cliente numa base “como orientado” em conformidade com a SOW correspondente.
+1.6 As partes acordam que uma vez que o Cliente e O PLAZA HOTEL tenham programado um tempo específico durante o qual O PLAZA HOTEL fornecerá os Serviços segundo os termos deste Contrato e de qualquer SOW, o Cliente será obrigado a pagar O PLAZA HOTEL por tais Serviços com as O PLAZA HOTEL tivesse realizado tais Serviços na data programada, a menos que o Cliente tenha notificado O PLAZA HOTEL que o Cliente gostariam de reprogramar ou cancelar o fornecimento de tais Serviços com pelo menos 10 dias úteis antes da data agendada em que O PLAZA HOTEL estava programada para executar tais Serviços. O Cliente concorda em pagar quaisquer custos de reprogramação associados aos recursos necessários para completara os Serviços segundo uma SOW. Sem se limitar ao declarado acima, nada nesta Seção 1.5 atuará de modo algum para reduzir a obrigação do Usuário com O PLAZA HOTEL associada a quaisquer obrigações segundo o contrato. Os Serviços do presente contrato não podem ser encerrados pelo Cliente de modo diferente do especificamente apresentado no contrato.
+1.7 O Cliente reconhece que se exige o envio de informações pelo Cliente e por terceiros para que O PLAZA HOTEL atenda às datas assinaladas numa Declaração de Trabalho (SOW). Desse modo, o Cliente reconhece que as datas assinaladas são apenas estimativas e que O PLAZA HOTEL não terá qualquer responsabilidade por não atender às datas assinaladas. No caso de atraso, em que o input do Cliente e/ou de terceiros não foi fornecido em tempo, as datas assinaladas podem ser reprogramadas para datas posteriores. 1.8 Se o Cliente adiar a execução dos Serviços objeto deste Contrato e qualquer SOW por mais de 90 dias, o Cliente será considerado como tendo cancelado este Contrato e a SOW correspondente. Quaisquer pagamentos pendentes serão considerados como devidos e a serem pagas à PLAZA HOTEL.
+1.9 Se o Cliente fizer, ou levar outra pessoa a fazer, quaisquer modificações, mudanças ou adaptações a quaisquer Matérias ou Aperfeiçoamentos sem a expressa autorização do PLAZA HOTEL (coletivamente, “Modificações Não PLAZA HOTEL”), O PLAZA HOTEL não estará obrigado a corrigir os problemas ocasionados nem a fornecer assistência em relação a qualquer uma dessas Modificações Não PLAZA HOTEL
+1.10. Quaisquer bens ou serviços fornecidos segundo este Contrato ou SOW estarão sujeitos a testes e revisões pelo Cliente conforme exigido pelo correspondente SOW, em que a conformidade de tais bens ou serviços entregues a quaisquer das exigências do Usuário referidas no SOW correspondente for o único critério parta aceitação. O Cliente deve notificar O PLAZA HOTEL por escrito sobre quaisquer defeitos ou deficiências que o Cliente acredite que necessitem ser corrigidos ou reparados no prazo de 10 dias da m entrega desses bens ou serviços entregues no (“Período de Testes de Aceitação”). Com quaisquer desses defeitos ou deficiências sendo corrigidos ou reparados, as disposições desta Cláusula novamente se aplicarão. Se o Cliente não responder dentro do Período de Testes de Aceitação, então o Cliente será considerado como tendo aceito os bens e serviços entregues e O PLAZA HOTEL não terá qualquer obrigação posterior de fornecer qualquer reparo ou conserto para tais bens e serviços entregues daquele momento em diante.
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:text="2. PEDIDOS DO CLIENTE"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="2.1 O Cliente pode fazer quaisquer pedidos (“Pedidos de Mudança”) por escrito quanto aos Serviços e/ou quanto a uma SOW à PLAZA HOTEL.  Os Pedidos de Mudança devem incluir uma descrição completa da mudança solicitada.  O PLAZA HOTEL concorda que ela deverá considerar quaisquer Pedidos de Mudança em termos das consequências, sem se limitar a, essa SOW, prazos e a quaisquer Taxas de Serviço e despesas adicionais.   Havendo a concordância das partes quanto ao Pedido de Mudança e de todas as consequências de tal mudança, O PLAZA HOTEL implementará o Pedido de Mudança e este passará a fazer parte do SOW correspondente.  Nenhum  Pedido de Mudança será implementado sem a aprovação por escrito de ambas as partes do  Pedido de Mudança"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="3. TAXAS, PAGAMENTOS E IMPOSTOS"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="3.1 As taxas e outras quantias a serem pagas segundo este Contrato estão estabelecidas e devem ser pagas pelo Cliente à PLAZA HOTEL do seguinte modo: As Taxas de Serviços por quaisquer serviços ou trabalho adicional conforme acordado entre as partes, conforme estabelecido na SOW correspondente e, se for o caso, qualquer Pedido de Mudança, inclusive, sem se limitar a ele, reembolso das despesas razoáveis por viagens e estadias
+3.2. Salvo acordo em contrário entre as partes, O PLAZA HOTEL deverá faturar ao Cliente quaisquer taxas aplicáveis e despesas reembolsáveis em uma base mensal, e com base na aceitação de certas metas conforme estabelecido em uma SOW pertinente ao longo do tempo. O Cliente deverá pagar O PLAZA HOTEL dentro de 30 dias úteis a partir do recebimento da fatura por transferência bancária para uma conta bancária, em conformidade com as instruções fornecidas pelo PLAZA HOTEL ao Cliente, ou pelo fornecimento de uma carta de crédito O PLAZA HOTEL, na forma de tal instituição financeira conforme for satisfatório para O PLAZA HOTEL, a seu exclusivo critério, no valor total da referida fatura.
+3.3 O reembolso de despesas está sujeito a quaisquer limitações regulatórias de reembolso impostas aos contratados do Cliente e o Cliente fornecerá à PLAZA HOTEL uma cópia de tais limitações antes que O PLAZA HOTEL incorra em despesas.
+3.4 Caso se torne necessária a evacuação do pessoal do PLAZA HOTEL (empregados ou contratados) por qualquer razão surgida nas instalações do cliente por razão de, mas não se limitando a, emergências médicas, insurgência civil ou política ou devido a um desastre natural, o Cliente fica responsável por tomar as medidas e custear a evacuação num padrão não inferior ao aplicável aos outros empregados, contratados, funcionários ou contratados expatriados ou pessoal da administração. Se a evacuação não for disponibilizada pelo Cliente, então O PLAZA HOTEL tomará as medidas apropriadas para retirar seus empregados e contratados, sendo este custo reembolsado pelo Cliente conforme a seção 3 deste Contrato. Se for necessário que O PLAZA HOTEL forneça segurança à equipe e consultores do PLAZA HOTEL para acessar, deixar ou enquanto estiver nas instalações do Cliente, o Cliente reembolsará O PLAZA HOTEL conforme a Seção 3 deste Contrato.
+3.5 O PLAZA HOTEL pode cobrar uma taxa por atraso sobre qualquer pagamento que esteja vencido conforme este Contrato.  Multas por atraso serão calculadas em 1,5% (um e meio por cento) por mês ou anualizado em 18% (dezoito por cento) ao ano sobre o saldo combinado da conta.
+3.6 Valores de impostos aplicáveis (se houver) não estão incluídos nas taxas previstas neste Contrato e qualquer SOW acordado. O Cliente deverá pagar todos os impostos e taxas (incluindo todos os impostos ad valorem) impostos por qualquer autoridade governamental com relação a quaisquer serviços ao abrigo de uma SOW. No caso de haver isenções a impostos ou encargos que o Cliente queira reivindicar, o Cliente deve fornecer à PLAZA HOTEL comprovação documental razoável de tal isenção.
+3.7 Todos os valores monetários segundo este Contrato estão declarados no SOW correspondente na moeda apropriada. Se não for especificada uma moeda, as quantias devidas a uma SOW serão pagas à PLAZA HOTEL em Dólares Norte-Americanos
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="4. CONFIDENCIALIDADE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="4.1 Informações Confidenciais devem ser divulgadas: (a) por escrito e visivelmente marcadas como sendo Informações Confidenciais da Parte Divulgadora, ou (b) por via oral, visual ou pela entrega de itens não tangíveis, que seja identificada como Informação Confidencial no momento da divulgação e confirmada e identificada, por escrito, no prazo de quinze dias da divulgação. Cada parte manterá a mais estrita confidencialidade e não revelará nem usará para outro fim que não seja a execução de suas obrigações segundo este Contrato ou de qualquer SOW apresentada, qualquer Informação Confidencial da outra parte, por um período de três anos do recebimento da referida Informação Confidencial. Nenhuma parte obterá qualquer vantagem com a Informação Confidencial da outra parte conhecida por este Contrato ou pela revelação de tal Informação Confidencial segundo este Contrato. Cada parte tomará as medidas necessárias para proteger a confidencialidade da Informação Confidencial da outra parte. Cada uma das partes poderá revelar a Informação Confidencial da outra parte apenas para seus conselheiros, diretores, agentes, empregados e consultores profissionais (e, no caso dO PLAZA HOTEL, para seus afiliados diretos e indiretos, sua e de seus respectivos conselheiros, diretores, agentes, empregados e consultores profissionais) que tenham a necessidade de conhecer tais Informações Confidenciais para o cumprimento deste Contrato, desde que tais conselheiros, diretores, agentes, empregados e consultores profissionais tenham obrigações de não divulgação e não utilização, substancialmente não menos protetoras no escopo do que as contidas no presente Artigo 4. Nada neste Artigo 4 restringirá uma parte de usar ou revelar sua própria Informação Confidencial.
+4.2 Não obstante quaisquer disposições deste Artigo 4, qualquer uma das partes pode revelar a Informação Confidencial da outra parte às autoridades reguladoras pertinentes ou se exigido por processo administrativo ou judicial ou se exigências tempestivas de apresentação forem impostas por lei ou por políticas de valores mobiliários, desde que tal parte primeiro notifique de imediato a outra parte sobre tal revelação exigida e mantenha confidencialidade no maior alcance permitido.
+4.3 Cada parte concorda em não tornar público nem revelar a existência dos termos deste Contrato ou de qualquer SOW a qualquer terceira parte sem o consentimento prévio por escrito da outra parte, exceto se exigida por lei ou processo legal.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="5. SOLICITAÇÃO E RECRUTAMENTO"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="5.1 Nenhuma das partes do Cliente poderá, durante a duração deste Contrato e por um período de 12 (doze) meses após seu término, persuadir, induzir, encorajar ou convidar qualquer empregado da Parte ou que trabalhe para a Parte (“Parte que Não Recruta”), e aquele empregado que esteja diretamente envolvido na execução deste Contrato, para passar a ser empregado ou contratado, direta ou indiretamente, qualquer que seja a maneira, pela Parte em qualquer operação da Parte que seja similar ou competidora com as atividades da Parte que não Recruta. O Cliente concorda em não recrutar nem oferecer para contratar qualquer empregado do PLAZA HOTEL que tenha se relacionado ao projeto.
+5.2 Caso uma Parte viole as disposições da cláusula 5.1, a Parte solicitante pagará à Parte não solicitante no prazo de 30 (trinta) dias do recebimento de notificação nesse sentido, a quantia igual a 100% (cem por cento) do custo salarial anual para a empresa de tal pessoal por meio de compensação e custos de recrutamento e treinamento associados à substituição de tal membro do pessoal, e as Partes acordam que tal conduta constituirá uma violação material das disposições da cláusula 5.1 e que a quantia referida no presente contrato representará danos pré-avaliados a serem sofridos pela Parte não Solicitante em consequência da violação desta cláusula.
+" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="6. PROPRIEDADE INTELECTUAL E INDENIZAÇÃO PELO PLAZA HOTEL"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="6.1. Após o pagamento das taxas aplicáveis, O PLAZA HOTEL concederá ao Cliente uma licença perpétua, mundial, intransferível e não exclusiva para utilizar os Materiais de Serviço para seus próprios fins internos. Nenhum direito a: (1) adaptar, copiar, distribuir ou modificar tais materiais de serviço (exceto para os direitos limitados de cópia, se houver, como estão definidas na SOW aplicável) ou preparar trabalhos derivados com base em tais Materiais de Serviço ou (2) para autorizar outros a fazerem qualquer, alguma, ou todas as considerações precedentes, seja concedido ao Cliente, a menos que o Cliente obtiver licença prévia por escrito dO PLAZA HOTEL por meio de uma emenda ao presente Contrato.
+6.2 Exceto ser for acordado de modo diferente em um contrato de licenciamento com O PLAZA HOTEL, nenhum termo expresso ou implícito deste Contrato transfere ao Cliente quaisquer direitos sobre patentes, direitos autorais, marcas comerciais, técnicas, segredos comerciais ou outros direitos de propriedade que estejam protegidos por leis e convenções nacionais e internacionais (coletivamente, “Direitos Proprietários”) de quaisquer Serviços, Materiais, software ou outros produtos fornecidos pelO PLAZA HOTEL, e o Cliente reconhece os direitos exclusivos dO PLAZA HOTEL sobre isso.  Nenhuma disposição deste Contrato será interpretada como concedendo ao seu Cliente, expressa ou implicitamente ou por meio de impedimento, qualquer licença relacionada a quaisquer outros Direitos Proprietários referentes ou abrangendo qualquer outro produto ou invenção dO PLAZA HOTEL ou a qualquer combinação dos Serviços com quaisquer outros Materiais, software ou outros produtos dO PLAZA HOTEL. Quaisquer direitos não assegurados expressamente neste Contrato são expressamente reservados pelO PLAZA HOTEL.
+6.3 O PLAZA HOTEL será a única possuidora de todas e quaisquer modificações, aperfeiçoamentos, mudanças, ou nova informação proprietária que for desenvolvida relacionada aos Serviços, Materiais, software ou outros produtos durante a duração deste Contrato (“Aperfeiçoamentos”) inclusive, sem se limitar a Aperfeiçoamentos gerados por todas e quaisquer sugestões, ideias, conceitos, comentários ou feedback (“Feedback”) que sejam fornecidos à PLAZA HOTEL pelo Cliente em relação aos Serviços ou a outros Direitos Proprietários, e O PLAZA HOTEL terá todos os direitos associados a qualquer Feedback. À medida que tais Aperfeiçoamentos não imediatamente se tornam exercíveis pelO PLAZA HOTEL, o Cliente cede todos os direitos, títulos e interesses relativos a tais Aperfeiçoamentos para O PLAZA HOTEL e convênios e concorda em fazer todas essas coisas e outras para executar, ou ter executados, sem mais documentos, tais como podem ser exigidos pelo PLAZA HOTEL, para obter e manter os direitos de propriedade e para atribuir, transferir, transmitir e garantir à PLAZA HOTEL o exclusivo direito, título de propriedade de benefício e interesse e de tais direitos de propriedade e todos os Aperfeiçoamentos.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="7. GARANTIA"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="7.1. Cada parte declara e garante à outra o seguinte:
+(a) A Empresa garante que os Serviços e Fornecimento de Produtos que a empresa fornece ao Cliente deverão, por 90 (noventa) dias a partir da data de entrega ao Cliente, estar materialmente de acordo com o que esteja descrito na SOW aplicável, observados os termos desta Seção. A Empresa, no entanto, não garante ou representa que os Serviços e o Fornecimento dos Produtos estarão livres de erros. A Empresa não se responsabiliza por: (i) qualquer modificação em um Fornecimento de Produtos feita pelo Cliente ou por terceiros sem o consentimento da Empresa; ou (ii) qualquer uso de um Fornecimento de Produto em conjunto com itens não fornecidos pela Empresa (mas apenas na medida em que tal combinação tenha criado a não conformidade). Em caso de descumprimento dos 90 (noventa) dias de garantia, a Empresa deverá corrigir prontamente, substituir ou modificar o Serviço aplicável ou o Fornecimento de Produtos sem custo. Se a Empresa não corrigir a parte inadimplente do Serviço aplicável ou do Fornecimento de Produtos no prazo de 60 (sessenta) dias após a notificação da não conformidade, como única solução do Cliente, devido a violação da garantia, a Empresa reembolsará ao Cliente todos os honorários pagos à Empresa para a parte em não conformidade com o Serviço ou o Fornecimento de Produtos aplicáveis.
+(b). Salvo disposição expressa em uma SOW, a empresa não tem obrigação de apoiar, manter ou melhorar qualquer software, documentação, materiais ou Produto Fornecido nos termos deste Contrato.
+(c). Quaisquer declarações orais ou escritas relativas a resultados ou objetivos que possam ser alcançados durante a execução dos Serviços e todas as pesquisas, previsões, recomendações e opiniões contidas em qualquer proposta, relatório, apresentação ou Fornecimento de Produto são feitas com base na informação atualmente disponível à Empresa, incluindo, mas não limitado, a informação fornecida pelo Cliente. Sob nenhuma circunstância tal declaração será considerada ou interpretada como uma representação, compromisso ou garantia, expressa ou implícita, de resultados ou objetivos alcançáveis.
+(d) A Empresa garante que ela, e não o Cliente, é responsável pela relação empregador/empregado com seus funcionários designados para prestação de serviços e que pagará todos os impostos relacionados aos funcionários, manterá qualquer seguro legalmente exigido relacionado aos funcionários e tomará todas as outras medidas legalmente exigidas como empregador.
+7.2 EXCETO COMO EXPRESSAMENTE ESTABELECIDO ACIMA, TODA E QUALQUER DOCUMENTAÇÃO E FERRAMENTAS DE SOFTWARE (COLETIVAMENTE, “MATERIAIS”) FORNECIDOS PELO PLAZA HOTEL SOB OS TERMOS DESSE CONTRATO SÃO FORNECIDOS “COMO SÃO” E AO RISCO EXCLUSIVO DO USUÁRIO. EXCETO COMO FOI ESTABELECIDO NESTE CONTRATO, O PLAZA HOTEL NÃO DÁ QUALQUER OUTRA GARANTIA, NÃO FAZ NENHUMA DECLARAÇÃO OU NEM FIRMA CONDIÇÃO E, NA MEDIDA MÁXIMA PERMITIDA POR LEI, O PLAZA HOTEL EXPLICITAMENTE DECLARA QUE TODAS AS GARANTIAS, DECLARAÇÕES E CONDIÇÕES, EXPRESSAS OU IMPLÍCITAS, REGULATÓRIAS OU DE OUTRO MODO, QUALQUER QUE SEJA O TIPO EM RELAÇÃO A QUAISQUER SERVIÇOS E MATERIAIS FORNECIDOS SEGUNDO ESTE CONTATO OU QUALQUER SOW, NO TODO OU EM PARTE, INCLUSIVE, MAS NÃO SE LIMITANDO A TÍTULO, QUALIDADE, COMERCIALIZAÇÃO, MÃO DE OBRA, DEFEITOS OCULTOS OU ADEQUAÇÃO A UMA FINALIDADE PARTICULAR DE USO. O PLAZA HOTEL EXPRESSAMENTE NÃO GARANTE QUE OS SERVIÇOS OU MATERIAIS, NO TODO OU EM PARTE, ESTARÃO LIVRES DE ERROS, OPERARÃO SEM INTERRUPÇÃO OU SERÃO ENTREGUES LIVRES DE DEMANDAS DE TERCEIROS POR INFRAÇÃO OU DE OUTRO MODO. O PLAZA HOTEL NÃO GARANTE, NEM CONDICIONA E NEM DECLARA QUE OS SERVIÇOS OU MATERIAIS ATENDERÃO ÀS EXIGÊNCIAS DO USUÁRIO. NENHUMA INFORMAÇÃO OU CONSELHO, VERBAL OU ESCRITO, DADO PELO PLAZA HOTEL OU POR TERCEIROS CRIARÃO UMA GARANTIA, CONDIÇÃO, DECLARAÇÃO E, NEM DE FORMA ALGUMA, AMPLIARÃO O ESCOPO DAS DISPOSIÇÕES SOBRE OS MATERIAIS.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="8. LIMITAÇÃO DE RESPONSABILIDADE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="8.1 A RESPONSABILIDADE DO PLAZA HOTEL POR DANOS EM CONEXÃO COM OS SERVIÇOS, MATERIAIS OU QUALQUER OUTRO ASSUNTO RELACIONADO A ESTE CONTRATO NÃO EXCEDERÁ A TAXA QUE O CLIENTE PAGAR PARA O PLAZA HOTEL PARA TAIS SERVIÇOS, MATERIAIS OU OUTRA MATÉRIA (OU, SE NENHUMA TAXA OPCIONAL FOR IDENTIFICADA, A TAXA CABÍVEL ATRIBUÍDA PELO PLAZA HOTEL) NO PERÍODO DE 12 MESES ANTES DA OCORRÊNCIA DA CAUSA DA DELIBERAÇÃO QUE TENHA ENSEJADO O PEDIDO DA QUESTÃO QUE CAUSOU OS DANOS.
+8.2 INOBSTANTE QUALQUER DISPOSIÇÃO EM CONTRÁRIO NESTE CONTRATO, EM NENHUM CASO O PLAZA HOTEL SERÁ RESPONSÁVEL JUNTO AO CLIENTE POR QUAISQUER DANOS ESPECIAIS, INCIDENTES OU RESULTANTES, SEJAM BASEADOS EM RUPTURA DO CONTRATO, RESPONSABILIDADE CIVIL, ILÍCITO CIVIL POR RESPONSABILIDADE PELO PRODUTO (INCLUSIVE, SEM SE LIMITAR A NEGLIGÊNCIA), OU DE OUTRA FORMA, ESTANDO OU NÃO O PLAZA HOTEL NOTIFICADA DA POSSIBILIDADE DE TAL DANO.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="9. INDENIZAÇÃO PELO USUÁRIO"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="9.1 O Cliente indenizará e manterá indene O PLAZA HOTEL, seus empregados, contratados, executivos, diretores, representantes, sucessores, titulares e agentes de toda e qualquer demanda, processo, ação, sentença, perdas, danos, obrigações, responsabilidades, custos, danos, e despesas de qualquer forma ou natureza, inclusive, sem se limitar a, honorários advocatícios, custas de perito, custas de consultores, e outros custos de defesa legal (coletivamente, “Danos”) resultantes no todo ou em parte de: (a) omissões, atos negligentes ou má conduta intencional dos empregados, contratados, executivos, diretores, agentes ou representantes do Cliente ou do Usuário (o “Pessoal do Cliente”); (b) uso dos Serviços, Materiais, Informação Confidencial dO PLAZA HOTEL, ou quaisquer Direitos Proprietários referentes a este contratos por Pessoal do Usuário ou Pessoal do Cliente ou a falha no uso de Serviços, Materiais, Informação Confidencial dO PLAZA HOTEL, ou quaisquer Direitos Proprietários referentes a este contratos em conformidade com os termos e condições deste Contrato da SOW correspondente; (c) violação dos direitos de terceiros por Pessoal do Usuário ou Pessoal do Cliente; ou (d) qualquer outra violação deste Contrato ou da SOW correspondente pelo Cliente ou por Pessoal do Cliente; considerando que a obrigação de indenizar acima não se aplicará na medida em que quaisquer Danos serão decididos por uma sentença final numa ação de que isso foi causado por negligência ou má conduta intencional dO PLAZA HOTEL."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="10. TÉRMINO" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="10.1 O Cliente pode rescindir por conveniência qualquer SOW, ou qualquer parte dela, através de notificação por escrito com 30 (trinta) dias de antecedência para a Empresa. Após o recebimento de tal notificação, a Empresa irá parar imediatamente todas as atividades associadas com a SOW encerrada e não fará novas entregas. A Empresa será paga pelos Serviços executados até a data da rescisão, e quaisquer outros custos irrecuperáveis e despesas que a empresa tenha pagado, ou que seja obrigada a pagar relativas ao seu desempenho para o período de vigência da SOW ou do término da SOW. Esse pagamento será de inteira responsabilidade do Cliente em caso de rescisão.
+10.2 O PLAZA HOTEL pode terminar este Contrato e todas suas SOWs em efeito sob este Contrato imediatamente sem qualquer obrigação ou responsabilidade posterior com o Cliente, se o Cliente estiver em violação material deste Contrato ou de qualquer SOW e o Cliente não sanar tal violação material no prazo de 10 dias úteis após o recebimento da notificação de tal violação feita pelO PLAZA HOTEL.
+10.3. As partes podem mutuamente acordar por escrito em encerrar este Contrato e todas suas SOW segundo este Contrato a qualquer momento.
+10.4 O Cliente pagará todas as quantias devidas segundo este Contrato na data de seu término. Para serviços executados com base em Tempo e Materiais, o Cliente pagará as Taxas aplicáveis e todas as despesas reembolsáveis associadas pelos Serviços completados até a data de término. Para Serviços executados com base em “preço fixo” para os Serviços como um todo, o Cliente pagará quaisquer quantias pendentes a serem ainda pagas do valor total do preço fixado. Para Serviços executados com base em “preço fixo” para cada data determinada do projeto global, o Cliente pagará quaisquer quantias pendentes a serem ainda pagas do valor total do preço fixado para a data estabelecida corrente e quaisquer quantias não pagas para todas as datas estabelecidas anteriores. No vencimento ou término deste Contrato, o Cliente deve devolver de imediato todas as cópias da Informação Confidencial do PLAZA HOTEL de posse do Usuário.
+10.5. As seguintes disposições sobreviverão ao término deste Contrato: Artigos 3, 4, 5, 7, 8, 9 e 11.
+10.6 O direito de qualquer das partes de terminar não é um remédio exclusivo, e qualquer das partes terá direito, em circunstâncias apropriadas, alternativa ou sucessivamente, a danos pela rescisão deste Contrato, a uma ordem exigindo o cumprimento das obrigações deste Contrato, ou a qualquer outro remédio existente segundo as leis da jurisdição aplicável.
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="11. GERAL"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="11.1 Força Maior Nenhuma das partes será responsabilizada por qualquer atraso ou falha no cumprimento do presente contrato devido a inundações, revoltas, greves, embargos de fretes, casos fortuitos, atos de guerra ou de hostilidades de qualquer natureza, leis ou regulamentos de qualquer governo (seja nacional ou estrangeiro, federal, estadual, municipal ou do condado), ou a qualquer outra causa similar além do controle razoável da parte afetada, exceto se essa perda de fundos ou de crédito não for devido a força maior. Uma parte que se fundamenta em tal evento para se escusar de seu cumprimento segundo o presente contrato imediatamente notificará a outra parte por escrito sobre a natureza desse evento e as perspectivas para o futuro desempenho dessa parte e deve responder de imediato por escrito e de modo completo, enquanto o evento continuar, a todas solicitações de informações da outra parte referente a tal evento e às suas perspectivas.  Uma parte que se fundamenta em tal evento para se escusar de seu cumprimento segundo o presente contrato não ficará isenta de pagar todas as quantias conforme elas se tornem devidas e vencidas por essa parte segundo este Contrato.
+11.2 Renúncias e Alterações O atraso ou a falha por qualquer das partes para exercer ou fazer cumprir quaisquer de seus direitos segundo este Contrato não constituirá ou será considerado como uma renúncia do direito dessa parte para adiante fazer valer esses direitos, nem qualquer exercício simples ou parcial de tal direito excluirá qualquer outro ou futuro exercício do mesmo ou o exercício de qualquer outro direito. Nenhuma alteração ou renúncia de qualquer disposição deste Contrato será válida, a menos que seja feita por escrito e assinada pela parte contra a qual se buscou o cumprimento.
+11.3 Precedência Cada SOW será interpretada pelos termos de tal SOW. No caso de qualquer conflito entre estes termos e condições padronizadas neste Anexo e uma SOW, as disposições deste Anexo prevalecerão, a menos que seja expressamente declarado de outro modo.
+11.4 Divisibilidade Se qualquer disposição deste Contrato for considerada nula ou não executável, as disposições remanescentes permanecerão válidas e serão interpretadas de modo a se obter as finalidades originais na mais completa conformidade com as leis e regulamentos aplicáveis.
+11.5 Inteiro Acordo. Este Contrato e qualquer SOW associado ao presente contêm o entendimento integral das partes em relação ao objeto do contrato e substitui e extingue todas comunicações verbais e por escritos entre as partes sobre a matéria. Qualquer ordem de aquisição ou documento similar que seja emitido pelo Cliente associado a este Contrato não modifica este Contrato. Nenhuma modificação deste Contrato será válida, a menos que seja feita por escrito, assinada por cada parte, e expressamente conste que ela altera este Contrato.
+11.6 Sucessores e Titulares. Este Contrato vinculará e entrará em vigor para o benefício das partes do presente contrato e de seus respectivos sucessores e titulares permitidos. Nenhuma das partes transferirá (por lei ou de outro modo) este Contrato ou qualquer direito ou interesse associado ao presente contrato sem o prévio consentimento por escrito da outra parte.
+11.7 Execução em Complementos. Este Contrato e quaisquer Anexos, SOW's e Pedidos de Mudanças fazem parte do Contrato, podem ser executados em qualquer número de complementos, cada uma delas assim executada será considerada como sendo um original e todas elas tomadas em conjunto constituirão um só e o mesmo contrato. Este Contrato pode ser executado ou entregue por fax ou correio eletrônico. Qualquer uma dessas transmissões de fax ou correio eletrônico constituirá o contrato final das partes e prova conclusiva de tal contrato.
+11.8 Resolução Informal de Disputas. Durante o Prazo deste Contrato, antes de se iniciar qualquer litígio (que não seja para buscar medida cautelar ou temporária), as partes primeiramente tentarão resolver suas disputas numa base informal em conformidade com esta Seção. A parte que entenda ter sido lesada (a “Parte Reclamante”) convocará a participação da administração na negociação da disputa por notificação escrita à outra parte. As partes empreenderão esforços comerciais razoáveis para fazer reuniões pessoais ou conferências por telefone, conforme seja necessário, entre os negociadores pelas partes, que serão os principais executivos da administração de cada parte. Se uma resolução de uma disputa não for resolvida em 60 dias, então cada uma das partes terá o direito em relação à outra: (a) sujeita às seções 10.2 e 10.4, o término desse Contrato e todas as SOWs em efeito sob esse Contrato; ou (b) iniciar um processo de litígio em um julgamento para o tribunal. Cada parte concorda em continuar a cumprir com suas obrigações segundo este Contrato enquanto qualquer disputa esteja sendo resolvida, a menos que e até que tais obrigações estejam terminadas pelo término ou vencimento deste Contrato.
+11.9 Lei Aplicável. Este Contrato será regido e interpretado em conformidade com as leis em vigor no estado ou província da jurisdição federal na qual está localizado o escritório dO PLAZA HOTEL que assumir o cumprimento. No caso de uma disputa, as partes pelo presente submetem à exclusiva jurisdição dos tribunais em que estiver localizado o escritório dO PLAZA HOTEL na qual está localizado o escritório dO PLAZA HOTEL que assumir o cumprimento. No caso de uma disputa de leis ou de jurisdição nesta seção, apicar-se-ão as leis da Inglaterra e de Gales e os tribunais da Inglaterra e de Gales.
+11.10 Contratados Independentes Cada parte do presente contrato é um contratante independente, não sendo o representante legal nem agente da outra parte para qualquer finalidade e não terá direito nem autoridade para contrair, assumir ou criar por escrito ou por outro meio, quaisquer obrigações para a outra parte."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:text="12. DEFINIÇÕES" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="Neste Contrato, os seguintes termos terão os respectivos sentidos atribuídos a eles, como segue:
+“Período de Teste de Aceitação” tem o sentido atribuído a esse termo na Seção 1.10.
+“Dia útil” significa qualquer dia exceto sábados, domingos, ou qualquer dia em que os bancos geralmente não abrem para negócios na cidade do escritório dO PLAZA HOTEL que executa os serviços segundo este Contrato.
+“Pedidos de Mudança” tem o sentido atribuído a esse termo na Seção 2.1.
+“Demandas” tem o sentido atribuído a esse termo na Seção 6.3.
+“Informação Confidencial” significa qualquer informação, dados técnicos ou técnicas, inclusive, mas não se limitando a, aquelas que compreendem ou se relacionam aos segredos proprietários ou confidenciais da parte, hardware, software, inclusive código fonte e código objeto, telas, especificações, projetos, planos, desenhos, dados, protótipos, descobertas, pesquisa, desenvolvimentos, processos, procedimentos, propriedade intelectual, pesquisa de mercado, técnicas e planos de mercado, planos e estratégias comerciais, os nomes do Cliente e outras informações referentes a usuários, listas de preços, políticas de preços e informações financeiras ou outras informações negociais e/ou técnicas e materiais, verbal, demonstrativa, escrita, eletrônica, gráfica ou lida por máquina e quaisquer análises, compilações, estudos ou documentos, e também inclui nos termos deste Contrato e de qualquer SOW correspondente; Informação Confidencial exclui qualquer informação que: (i) seja ou se torne publicamente disponível sem violação deste Contrato; (ii) é revelada a uma parte por uma terceira parte, desde que tal informação não tenha sido obtida pela terceira parte, direta ou indiretamente, de outra confidencialmente; (iii) já seja conhecida por uma parte sem obrigações de confidencialidade; ou (iv) seja desenvolvida ou descoberta independentemente por uma parte sem referência à Informação Confidencial da outra parte. As Informações Confidenciais não incluem ideias e conceitos que possam ocorrer a indivíduos que tenham sido expostos às Informações Confidenciais.
+“O Funcionário do Cliente” tem o sentido atribuído a esse termo na Seção 9.1.
+“Danos” tem o sentido atribuído a esse termo na Seção 9.1.
+ A “Parte Reclamante” tem o sentido atribuído a esse termo na Seção 11.9.
+“Materiais” tem o sentido atribuído a esse termo na Seção 7.2.
+“Modificações no PLAZA HOTEL” tem o sentido atribuído a esse termo na Seção 1.9.
+“Serviços” significa os serviços profissionais a serem fornecidos pelo PLAZA HOTEL ao Cliente em relação ao Software Licenciado, conforme definido em qualquer SOW acordada.
+“SOW” ou “Declaração de Trabalho” significa cada declaração de trabalho conforme acordado e assinado pelas partes.
+“Base de Tempo e Material” significa o fornecimento de Serviços e bens com base na quantidade e custo real, custo de tempo e materiais necessários para tal fornecimento.
+"/>
+    </LinearLayout>
+
+
+</ScrollView>

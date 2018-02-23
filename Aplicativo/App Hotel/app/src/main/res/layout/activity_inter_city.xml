@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dan_inn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.escola.apphotel.InterCity">
+
+    <LinearLayout
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:background="@drawable/intercity"
+        android:layout_height="220dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="InterCity Premium Manaus"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Endereço: Av. Professor Marciano Armon, 544 "
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="15dp"
+            android:text="Bairro: Adrianopolis           CEP: 69057-030"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/endereco">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telefone"
+            />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E-mail"
+            />
+
+        <Button
+            android:id="@+id/btnSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="browser1"
+            android:text="SITE"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/informacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/botoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Informações: "/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/informacoes">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:text="Seja bem-vindo ao hotel Intercity Premium Manaus, localizado em Adrianópolis, o melhor bairro da cidade, a 20 minutos do aeroporto internacional, próximo ao Shopping Manauara e fácil acesso ao distrito industrial e principais avenidas como Djalma Batista e Constantino Nery. Saboreie um delicioso café da manhã com itens tradicionais da região e relaxe dando boas braçadas na piscina ao final de um longo dia de trabalho. Sobrou tempo na agenda? Aproveite para conhecer o Teatro Amazonas ou conferir o Encontro das Águas do Rio Negro com o Rio Solimões. Quer saber mais? Então explore nossos serviços e sinta-se sempre em casa com a Intercity Hotéis."/>
+    </ScrollView>
+
+</RelativeLayout>

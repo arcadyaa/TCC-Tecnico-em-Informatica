@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.escola.apphotel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="Plaza Hotéis"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TelaCadastro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelaInicial"
+            android:label="Plaza Hotéis"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".TermosCondicao"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.escola.apphotel.TelaInicial" />
+        </activity>
+        <activity
+            android:name=".PoliticaPrivacidade"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.escola.apphotel.TelaInicial" />
+        </activity>
+        <activity
+            android:name=".AtendimentoActivity"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.escola.apphotel.TelaInicial" />
+        </activity>
+        <activity
+            android:name=".InfoUsuario"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.escola.apphotel.TelaInicial" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.escola.apphotel.TelaInicial" />
+        </activity>
+        <activity
+            android:name=".DanInn"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".AstronPark"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".NoumiHotel"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".VilaRica"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".LeonPark"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".Marksoud"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".AstronGarden"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".WzJardins"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".WzCentury"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".LondonClass"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".Adrianopolis"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".InterCity"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".ComfortHotel"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar" />
+        <activity
+            android:name=".GoInn"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar"></activity>
+        <activity
+            android:name=".QualityHotel"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar">
+        </activity>
+
+        <activity
+            android:name=".MyPreferencesActivity"
+            android:label="Plaza Hóteis"
+            android:parentActivityName=".TelaInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoStatusBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.escola.apphotel.TelaInicial" />
+        </activity>
+    </application>
+
+</manifest>

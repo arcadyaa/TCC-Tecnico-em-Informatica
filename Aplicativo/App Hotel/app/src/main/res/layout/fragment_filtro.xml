@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FiltroFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TabHost
+            android:id="@+id/tabHost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="0dp"
+                    android:showDividers="none"
+                    android:tabStripEnabled="false"
+                    android:background="#4682B4"
+                    android:clickable="false"></TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/campinas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F0F8FF"
+                        android:orientation="vertical">
+
+                        <fragment
+                            android:id="@+id/fragment1"
+                            android:name="br.com.escola.apphotel.Campinas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            tools:layout="@layout/model" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="38dp"
+                            android:text="Fragment Custom ListView"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/saopaulo"
+                        android:background="#F0F8FF"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <fragment
+                            android:id="@+id/fragment2"
+                            android:name="br.com.escola.apphotel.SaoPaulo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            tools:layout="@layout/model" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="38dp"
+                            android:text="Fragment Custom ListView"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/manaus"
+                        android:background="#F0F8FF"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <fragment
+                            android:id="@+id/fragment3"
+                            android:name="br.com.escola.apphotel.Manaus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            tools:layout="@layout/model" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="38dp"
+                            android:text="Fragment Custom ListView"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+    </LinearLayout>
+</FrameLayout>
