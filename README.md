@@ -12,11 +12,7 @@ Contem tudo que foi usado no aplicativo pelo programa Android Studio e a Pasta A
 
 ## App - Vídeo do Site e do Aplicativo funcionando: 
 
-<p align="center">
-  <img src="https://github.com/mtheuslt/TCC-Tecnico-em-Informatica/blob/master/Video%20Plaza%20Hoteis.mp4" height="500"/>
-</p>
-
-
+https://github.com/mtheuslt/TCC-Tecnico-em-Informatica/blob/master/Video%20Plaza%20Hoteis.mp4
 
 Licença
 ----
